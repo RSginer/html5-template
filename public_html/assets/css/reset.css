@@ -10,7 +10,7 @@
 /* Document
    ========================================================================== */
 html{
-    font-family: sans-serif; /* 1 */
+    font-family: Arial,Helvetica,sans-serif; /* 1 */
     line-height: 1.15; /* 2 */
     -ms-text-size-adjust: 100%; /* 3 */
     -webkit-text-size-adjust: 100%; /* 3 */
@@ -20,6 +20,7 @@ html{
     -o-border-sizing:border-box;
     box-sizing: border-box;
 }
+
 *, *:before, *:after{
     -webkit-box-sizing: inherit;
     -moz-box-sizing:inherit;
@@ -35,7 +36,7 @@ html{
  */
 
 body {
-    margin: 0;
+    line-height: 1;
 }
 
 /**
@@ -49,16 +50,6 @@ header,
 nav,
 section {
     display: block;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -499,9 +490,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-body {
-    line-height: 1;
-}
+
 ol, ul {
     list-style: none;
 }
